@@ -2,7 +2,7 @@
 # Guil CLI Boilerplate
 
 <p align="center">
-  <img src="https://res.cloudinary.com/dfgjenml4/image/upload/v1720642021/jggk0zwejnbmsmlcd33g.png" alt="Guil CLI Logo" width="100" height="60">
+  <img src="https://res.cloudinary.com/dfgjenml4/image/upload/v1720642021/jggk0zwejnbmsmlcd33g.png" alt="Guil CLI Logo" width="300" height="80">
 </p>
 
 Este es un boilerplate para React, configurado con herramientas de desarrollo modernas y una estructura de carpetas pensada para proyectos escalables.
