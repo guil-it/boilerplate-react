@@ -1,8 +1,15 @@
 import React from 'react';
 import { DocumentTextIcon, CodeBracketIcon, RocketLaunchIcon } from '@heroicons/react/24/outline';
+import SEO from '../../components/SEO';
 
 function Home() {
   return (
+    <>
+    <SEO 
+        title="CLI guil - Home"
+        description="CLI guil is a powerful command-line interface tool for modern web development."
+        keywords="CLI, guil, web development, command-line interface"
+      />
     <div className="w-full h-full flex items-center justify-center p-4 overflow-auto">
       <div className="max-w-4xl w-full">
         <img 
@@ -50,6 +57,7 @@ function Home() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

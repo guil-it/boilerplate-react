@@ -1,7 +1,14 @@
 import React from 'react';
+import SEO from '../../components/SEO';
 
 function About() {
   return (
+    <>
+    <SEO 
+        title="About CLI guil"
+        description="Learn about güil, a Latin American company builder and corporate venture capital focusing on mobility solutions."
+        keywords="güil, mobility solutions, company builder, venture capital, Latin America"
+      />
     <div className="w-full h-full flex items-center justify-center p-4 overflow-auto">
       <div className="max-w-4xl w-full">
         <img 
@@ -26,6 +33,7 @@ function About() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
