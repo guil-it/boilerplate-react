@@ -5,63 +5,63 @@
   <img src="https://res.cloudinary.com/dfgjenml4/image/upload/v1720642021/jggk0zwejnbmsmlcd33g.png" alt="Guil CLI Logo" width="300" height="80">
 </p>
 
-Este es un boilerplate para React, configurado con herramientas de desarrollo modernas y una estructura de carpetas pensada para proyectos escalables.
+This is a boilerplate for React, configured with modern development tools and a folder structure designed for scalable projects.
 
-## 🚀 Características
+## 🚀 Features
 
 - ⚛️ React 18
-- 🎨 Tailwind CSS para estilos
-- 🧭 React Router para navegación
-- 🛠 ESLint y Prettier para linting y formateo de código
-- 🐶 Husky para git hooks
-- 🚫 lint-staged para ejecutar linters en archivos staged
-- 📱 Diseño responsive
-- 🌐 Soporte para PWA (Progressive Web App)
+- 🎨 Tailwind CSS for styling
+- 🧭 React Router for navigation
+- 🛠 ESLint and Prettier for code linting and formatting
+- 🐶 Husky for git hooks
+- 🚫 lint-staged for running linters on staged files
+- 📱 Responsive design
+- 🌐 PWA (Progressive Web App) support
 
-## 🏁 Inicio rápido
+## 🏁 Quick Start
 
-### 🔧 Clonar el repositorio
+### 🔧 Clone the repository
 ```bash
-git clone https://github.com/tu-usuario/guil-cli-boilerplate.git
+git clone https://github.com/your-username/guil-cli-boilerplate.git
 ```
 
-### 📂 Navegar al directorio
+### 📂 Navigate to the directory
 ```bash
 cd guil-cli-boilerplate
 ```
 
-### 📦 Instalar dependencias
+### 📦 Install dependencies
 ```bash
 npm install
 ```
 
-### 🚀 Iniciar el servidor de desarrollo
+### 🚀 Start the development server
 ```bash
 npm run dev
 ```
 
-##### La aplicación estará disponible en [http://localhost:3000](http://localhost:3000).
+##### The application will be available at [http://localhost:3000](http://localhost:3000).
 
 ------------
 
-# 📁 Estructura de carpetas
+# 📁 Folder Structure
 
 ```plaintext
 src/
-├── assets/               # Archivos estáticos (imágenes, fuentes, etc.)
-├── components/           # Componentes reutilizables
-├── common/               # Componentes comunes (botones, inputs, etc.)
-├── layout/               # Componentes de layout (header, footer, etc.)
-└── feature-specific/     # Componentes específicos de características
+├── assets/               # Static files (images, fonts, etc.)
+├── components/           # Reusable components
+├── common/               # Common components (buttons, inputs, etc.)
+├── layout/               # Layout components (header, footer, etc.)
+└── feature-specific/     # Feature-specific components
 ├── hooks/                # Custom hooks
-├── pages/                # Componentes de páginas
-├── services/             # Servicios (API, autenticación, etc.)
-├── utils/                # Funciones de utilidad y constantes
-├── context/              # Contextos de React
-├── store/                # Configuración de estado global (si se usa Redux)
-├── styles/               # Estilos globales y variables
-├── App.jsx               # Componente principal de la aplicación
-└── index.jsx             # Punto de entrada de la aplicación
+├── pages/                # Page components
+├── services/             # Services (API, authentication, etc.)
+├── utils/                # Utility functions and constants
+├── context/              # React contexts
+├── store/                # Global state configuration (if using Redux)
+├── styles/               # Global styles and variables
+├── App.jsx               # Main application component
+└── index.jsx             # Application entry point
 ```
 
 ------------
