@@ -1,4 +1,5 @@
 import React from 'react';
+import { DocumentTextIcon, CodeBracketIcon, RocketLaunchIcon } from '@heroicons/react/24/outline';
 
 function App() {
   return (
@@ -20,19 +21,28 @@ function App() {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           <div>
-            <h2 className="text-2xl font-semibold mb-2 font-poppins">Docs →</h2>
+            <h2 className="text-2xl font-semibold mb-2 font-poppins flex items-center justify-center">
+              <DocumentTextIcon className="h-6 w-6 mr-2 text-blue-400" />
+              Docs →
+            </h2>
             <p className="text-gray-300 font-poppins">
               Find in-depth information about CLI guil features and API.
             </p>
           </div>
           <div>
-            <h2 className="text-2xl font-semibold mb-2 font-poppins">Templates →</h2>
+            <h2 className="text-2xl font-semibold mb-2 font-poppins flex items-center justify-center">
+              <CodeBracketIcon className="h-6 w-6 mr-2 text-blue-400" />
+              Templates →
+            </h2>
             <p className="text-gray-300 font-poppins">
               Explore the CLI guil playground.
             </p>
           </div>
           <div>
-            <h2 className="text-2xl font-semibold mb-2 font-poppins">Deploy →</h2>
+            <h2 className="text-2xl font-semibold mb-2 font-poppins flex items-center justify-center">
+              <RocketLaunchIcon className="h-6 w-6 mr-2 text-blue-400" />
+              Deploy →
+            </h2>
             <p className="text-gray-300 font-poppins">
               Instantly deploy your CLI guil site to a shareable URL.
             </p>
