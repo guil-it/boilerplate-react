@@ -60,5 +60,89 @@ src/
 ------------
 
 
-## 🤝 Contribución
-Las contribuciones son bienvenidas. Por favor, abre un issue o realiza un pull request con tus cambios.
+# Contributing to CLI guil
+
+We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
+
+- Reporting a bug
+- Discussing the current state of the code
+- Submitting a fix
+- Proposing new features
+- Becoming a maintainer
+
+## We Develop with Github
+We use github to host code, to track issues and feature requests, as well as accept pull requests.
+
+## We Use [Github Flow](https://guides.github.com/introduction/flow/index.html), So All Code Changes Happen Through Pull Requests
+Pull requests are the best way to propose changes to the codebase. We actively welcome your pull requests:
+
+1. Fork the repo and create your branch from `main`.
+2. If you've added code that should be tested, add tests.
+3. If you've changed APIs, update the documentation.
+4. Ensure the test suite passes.
+5. Make sure your code lints.
+6. Issue that pull request!
+
+## Any contributions you make will be under the MIT Software License
+In short, when you submit code changes, your submissions are understood to be under the same [MIT License](http://choosealicense.com/licenses/mit/) that covers the project. Feel free to contact the maintainers if that's a concern.
+
+## Report bugs using Github's [issues](https://github.com/yourusername/cli-guil/issues)
+We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/yourusername/cli-guil/issues/new); it's that easy!
+
+## Write bug reports with detail, background, and sample code
+
+**Great Bug Reports** tend to have:
+
+- A quick summary and/or background
+- Steps to reproduce
+  - Be specific!
+  - Give sample code if you can.
+- What you expected would happen
+- What actually happens
+- Notes (possibly including why you think this might be happening, or stuff you tried that didn't work)
+
+## Use a Consistent Coding Style
+
+* 2 spaces for indentation rather than tabs
+* You can try running `npm run lint` for style unification
+
+## License
+By contributing, you agree that your contributions will be licensed under its MIT License.
+
+## References
+This document was adapted from the open-source contribution guidelines for [Facebook's Draft](https://github.com/facebook/draft-js/blob/master/CONTRIBUTING.md)
+
+
+------------
+
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+### Added
+- Initial project setup with React and Tailwind CSS
+- Implemented basic routing with React Router
+- Created Home, About, and Features pages
+- Added SEO component using React Helmet
+- Implemented responsive design across all pages
+
+### Changed
+- Updated README with project overview and setup instructions
+
+### Fixed
+- Resolved issues with content overflow on smaller screens
+
+## [0.1.0] - 2024-07-10
+
+### Added
+- Initial release of CLI guil
+- Basic CLI functionality
+- Project scaffolding capabilities
+
+[Unreleased]: https://github.com/yourusername/cli-guil/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/yourusername/cli-guil/releases/tag/v0.1.0
